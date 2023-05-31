@@ -17,10 +17,10 @@ public class Duels extends JavaPlugin {
         getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
         Bukkit.getPluginManager().registerEvents(gameManager, this);
 
-        System.out.println("[SumoGame] Enabled! Waiting for players");
+        System.out.println("[Duels] Enabled! Waiting for players");
     }
 
     public void onDisable() {
-        System.out.println("[SumoGame] Goodbye!");
+        System.out.println("[Duels] Goodbye!");
     }
 }
