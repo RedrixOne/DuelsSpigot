@@ -23,7 +23,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class GameManager implements Listener {
 
-    Plugin plugin = getServer().getPluginManager().getPlugin("SumoGame");
+    Plugin plugin = getServer().getPluginManager().getPlugin("DuelsSpigot");
     private GameStats gameStats;
     private List<Player> players;
     private BukkitRunnable countdownTask;
